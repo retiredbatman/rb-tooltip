@@ -1,0 +1,29 @@
+{
+  "name": "rb-tooltip",
+  "version": "1.0.0",
+  "description": "A javascript module to create tooltips on mouseover of any dom element",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sudiproy89/rb-tooltip"
+  },
+  "keywords": [
+    "javascript",
+    "js",
+    "tooltip",
+    "mouseover",
+    "hover"
+  ],
+  "author": "Sudip Roy <sudiproy89@hotmail.com>",
+  "license": "GNU GENERAL PUBLIC LICENSE",
+  "bugs": {
+    "url": "https://github.com/sudiproy89/rb-tooltip/issues"
+  },
+  "homepage": "https://github.com/sudiproy89/rb-tooltip",
+  "dependencies": {
+    "jquery": "^2.1.4"
+  }
+}

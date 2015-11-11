@@ -24,7 +24,7 @@
     container.appendChild(tooltipInner);
 
     var getBounds = function(el) {
-      var bounds = el.getBoundingClientRect();
+      var bounds = $(el).offset();
       bounds.width = el.offsetWidth;
       bounds.height = el.offsetHeight;
       return bounds;

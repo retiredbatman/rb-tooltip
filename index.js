@@ -166,7 +166,7 @@
 
     var bindEvents = function() {
       $(elem).on('mouseover', onMouseOver);
-    //$(elem).on('mouseleave', onMouseLeave);
+      $(elem).on('mouseleave', onMouseLeave);
     };
 
     var initialize = function(element, htmlStr, opts) {

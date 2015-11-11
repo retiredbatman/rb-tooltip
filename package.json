@@ -1,6 +1,6 @@
 {
   "name": "rb-tooltip",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "A javascript module to create tooltips on mouseover of any dom element",
   "main": "index.js",
   "scripts": {

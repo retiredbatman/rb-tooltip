@@ -109,7 +109,7 @@
     };
 
     var showTooltip = function(event) {
-      var placement = "top";
+      var placement = options.placement;
 
       var el = event.currentTarget;
 
@@ -118,7 +118,7 @@
         top: 0,
         left: 0,
         display: 'block'
-      }).addClass('fade top');
+      }).addClass('fade').addClass(placement);
 
       $(container).insertAfter($(el));
 
@@ -173,6 +173,7 @@
       elem = element;
       html = htmlStr;
       options = opts || {};
+      options.placement = opts.placement || 'bottom';
       render();
       bindEvents();
     }

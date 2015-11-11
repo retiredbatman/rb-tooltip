@@ -8,6 +8,6 @@ var Tooltip  = require('rb-tooltip');
 
 var dom_tooltip = Tooltip();
 
-dom_tooltip.init("elem id to on which tooltip is to be bound",
+dom_tooltip.init("dom elem to be bound with the tooltip",
 								"<div>Tooltip HTML</div>"//html string for tooltip
 );

@@ -11,7 +11,6 @@
 })(this, function($) {
   return function() {
     var elem;
-    var elemId;
     var html;
     var options = {};
     var container = document.createElement('div');
@@ -170,9 +169,8 @@
     //$(elem).on('mouseleave', onMouseLeave);
     };
 
-    var initialize = function(element_id, htmlStr, opts) {
-      elem = document.getElementById(element_id);
-      elemId = element_id;
+    var initialize = function(element, htmlStr, opts) {
+      elem = element;
       html = htmlStr;
       options = opts || {};
       render();
